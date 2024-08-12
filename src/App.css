@@ -1,6 +1,12 @@
 *{
-  font-family: Arial;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500; /* Thin */
+
   box-sizing: border-box;
+}
+
+strong, h2{
+  font-weight: 700;
 }
 
 body{
@@ -9,3 +15,4 @@ body{
   justify-content: center;
   align-items: center;
 }
+

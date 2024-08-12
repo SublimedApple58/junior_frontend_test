@@ -29,7 +29,7 @@ form{
     margin: 0;
 }
 
-input, button{
+.text, button{
     height: 50px;
     width: 400px;
     border-radius: 5px;

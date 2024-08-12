@@ -1,5 +1,5 @@
 import './Login.css';
-import '../Form.css'
+import '../Form/Form.css'
 
 interface LoginProps {
     switchToSingUp: () => void;
