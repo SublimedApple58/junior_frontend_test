@@ -1,0 +1,50 @@
+:root{
+    --colore1: rgb(255, 60, 0);
+    --colore2: rgb(235, 235, 235);
+    --colore3: rgb(153, 153, 153);
+    --colore4: rgb(214, 214, 214);
+  }
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 450px;
+    border: 1px solid var(--colore4);
+    border-radius: 10px;
+    padding: 40px;
+}
+
+h2{
+    font-size: 2em;
+}
+
+input, button{
+    height: 50px;
+    width: 400px;
+    border-radius: 5px;
+    font-size: 1.1em;
+    margin: 10px auto;
+}
+
+.text{
+    border: 1px solid var(--colore2);
+    color: var(--colore3);
+    padding: 20px;
+}
+
+.text:focus{
+    border: 1px solid black;
+}
+
+button{
+    background-color: var(--colore1);
+    border: none;
+    color: white;
+    margin-top: 40px;
+    cursor: poiner;
+}
+
+button:hover{
+    background-color: #d93b0c;
+}
