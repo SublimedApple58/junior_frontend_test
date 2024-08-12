@@ -1,0 +1,29 @@
+.check{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.check > p{
+    font-size: 0.9rem;
+    font-weight: 100;
+    color: rgb(117, 117, 117);
+    width: 33%;
+    text-align: right;
+}
+
+.bar{
+    width: 67%;
+    background-color: rgb(235, 235, 235);
+    height: 5px;
+}
+
+.bar > #level{
+    content: '';
+    height: 100%;
+    display: block;
+    width: 33%;
+    background-color: red;
+    transition: .4s all ease-out;
+}

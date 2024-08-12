@@ -39,7 +39,6 @@ input, button{
 
 .text{
     border: 1px solid var(--colore2);
-    color: var(--colore3);
     padding: 20px;
     outline: 0;
     transition: all .3s ease-out;

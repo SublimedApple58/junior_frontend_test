@@ -1,24 +1,11 @@
-import { useState } from 'react';
 import './App.css'
-import Login from './components/Login/Login';
-import SignUp from './components/SignUp/SignUp';
+import Form from './components/Form/Form';
 
 function App() {
 
-  const [subscribed, setSubscribed] = useState(false);
-
-  function switchToLogin() {
-    setSubscribed(!subscribed);
-  }
-
-  function switchToSignUp() {
-    setSubscribed(!subscribed);
-  }
-
   return (
     <>
-      {subscribed && <Login switchToSingUp={switchToSignUp}/>}
-      {!subscribed && <SignUp switchToLogin={switchToLogin}/>}
+      <Form />
     </>
   )
 }

@@ -1,3 +1,5 @@
+import './SignUp.css';
+
 interface SignUpProps {
     switchToLogin: () => void;
 }
@@ -15,6 +17,12 @@ function SignUp({switchToLogin} : SignUpProps){
                 <input type="text" placeholder="Last name" id="lastName" className="text"/>
                 <input type="email" placeholder="Inserisci l'email" id="email" className="text"/>
                 <input type="password" placeholder="Password" id="password" className="text"/>
+                <div className="check">
+                    <div className="bar">
+                        <div id='level'></div>
+                    </div>
+                    <p>too easy my friend</p>
+                </div>
                 <button>Create account</button>
             </form>
         </>

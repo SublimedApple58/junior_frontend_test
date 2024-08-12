@@ -6,7 +6,7 @@ interface LoginProps {
 }
 
 
-function Form({switchToSingUp}: LoginProps){
+function Login({switchToSingUp}: LoginProps){
     
     return (
         <>
@@ -24,4 +24,4 @@ function Form({switchToSingUp}: LoginProps){
     )
 }
 
-export default Form;
+export default Login;
