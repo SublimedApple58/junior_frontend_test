@@ -18,8 +18,6 @@ function Input(props: {type: string, description: string, subscribed?: boolean})
     const handlePasswordBlur = () => {
         if (password.current) {
             setSafety(SecurityHelper.ratePassword(password.current.value));
-            console.log(SecurityHelper.ratePassword(password.current.value));
-            console.log(password.current.value);
         }
     };
 
