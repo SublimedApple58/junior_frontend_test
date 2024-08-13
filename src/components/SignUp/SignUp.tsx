@@ -1,18 +1,11 @@
 import './SignUp.css';
 import Input from '../input/Input';
-import { useRef, useState } from 'react';
 
 interface SignUpProps {
     switchToLogin: () => void;
 }
 
 function SignUp({switchToLogin} : SignUpProps){
-
-    enum Security{
-        easy, 
-        medium,
-        safe
-    }
     
     return(
             <>

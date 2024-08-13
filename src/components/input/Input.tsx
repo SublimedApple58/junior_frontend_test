@@ -78,7 +78,7 @@ function Input(props: {type: string, description: string, subscribed?: boolean})
                         placeholder={props.description} 
                         className='text' 
                         ref={password}
-                        onBlur={handlePasswordBlur}/>
+                        onChange={handlePasswordBlur}/>
                     
                     {!props.subscribed && (
                         <div className="check">
