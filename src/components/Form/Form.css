@@ -70,3 +70,17 @@ button:hover{
 .link:hover{
     text-shadow: 0px 1px 10px  black;
 }
+
+@media (max-width: 600px) {
+    form{
+
+    }
+
+    .text, button{
+        height: 50px;
+        width: 300px;
+        border-radius: 5px;
+        font-size: 1.1em;
+        margin: 8px auto;
+    }
+}

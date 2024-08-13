@@ -21,6 +21,7 @@
 
 .bar > #level{
     content: '';
+    width: 0;
     height: 100%;
     display: block;
     transition: .4s all ease-out;
@@ -30,12 +31,10 @@
     margin: 20px 0 10px 0;
 }
 
-/* Nascondere la checkbox originale */
 .custom-checkbox input[type="checkbox"] {
     display: none;
 }
 
-/* Creare l'aspetto personalizzato della checkbox */
 .custom-checkbox {
     display: flex;
     align-items: center;
@@ -66,15 +65,15 @@
 }
 
 .custom-checkbox input[type="checkbox"]:checked + span::before {
-    background-color: rgb(255, 60, 0); /* Colore di sfondo quando selezionato */
-    border-color: rgb(255, 60, 0); /* Colore del bordo quando selezionato */
+    background-color: rgb(255, 60, 0); 
+    border-color: rgb(255, 60, 0);
 }
 
 .custom-checkbox input[type="checkbox"]:checked + span::after {
     content: '';
     position: absolute;
-    left: 8.5px; /* Regola la posizione orizzontale della spunta */
-    top: 5px; /* Regola la posizione verticale della spunta */
+    left: 8.5px;
+    top: 5px; 
     width: 5px;
     height: 10px;
     border: solid #fff;
