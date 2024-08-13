@@ -1,7 +1,6 @@
 *{
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
-
   box-sizing: border-box;
 }
 
@@ -10,7 +9,7 @@ strong, h2, h4{
 }
 
 body{
-  min-height: 100vh;
+  min-height: 80vh;
   display: flex;
   justify-content: center;
   align-items: center;

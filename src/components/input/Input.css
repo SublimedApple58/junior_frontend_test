@@ -116,6 +116,11 @@ button:hover{
 
 
 @media (max-width: 600px) {
+
+    form{
+        padding: 40px 30px;
+    }
+
     .text, button{
         height: 50px;
         width: 300px;
