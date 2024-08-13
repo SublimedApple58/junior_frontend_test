@@ -7,18 +7,14 @@ function Form(){
 
     const [subscribed, setSubscribed] = useState(false);
 
-    function switchToLogin() {
-      setSubscribed(!subscribed);
-    }
-  
-    function switchToSignUp() {
+    function switchSubscribed() {
       setSubscribed(!subscribed);
     }
   
     return (
       <>
-        {subscribed && <Login switchToSingUp={switchToSignUp}/>}
-        {!subscribed && <SignUp switchToLogin={switchToLogin}/>}
+        {subscribed && <Login switchToSingUp={switchSubscribed}/>}
+        {!subscribed && <SignUp switchToLogin={switchSubscribed}/>}
       </>
     )
 }

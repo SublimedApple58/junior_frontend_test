@@ -23,8 +23,6 @@
     content: '';
     height: 100%;
     display: block;
-    width: 33%;
-    background-color: red;
     transition: .4s all ease-out;
 }
 

@@ -1,5 +1,6 @@
 import './Login.css';
 import '../Form/Form.css'
+import Input from '../input/Input';
 
 interface LoginProps {
     switchToSingUp: () => void;
@@ -15,9 +16,9 @@ function Login({switchToSingUp}: LoginProps){
                     <h2>Login</h2>
                     <p>Don't you have ad account? <strong className='link' onClick={switchToSingUp}>Sign Up</strong></p>
                 </div>
-                <input type="email" placeholder="Inserisci l'email" id="email" className="text"/>
-                <input type="password" placeholder="Password" id="password" className="text"/>
-                <button>Continue</button>
+                <Input type="email" description="Email"/>
+                <Input type="password" description="Password" subscribed={true}/>
+                <Input type='button' description='Continue'/>
                 <h4>Forgot password?</h4>
             </form>
         </>
